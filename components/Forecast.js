@@ -7,6 +7,7 @@ export default function Forecast(props){
             <Text style={styles.fonts}>{props.main}</Text>
             <Text style={styles.des}>{props.description}</Text>
             <Text style={styles.tempt}>{props.temp}°C</Text>
+            <Text style={styles.tempt}>Feels Like {props.feel}°C</Text>
         </View>
     )
 }
