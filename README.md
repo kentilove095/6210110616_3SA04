@@ -9,3 +9,8 @@
 3. เพิ่มคำอ่านภาษาไทยให้กับชื่อจังหวัดนั้นๆ
 4. ทำการเพิ่ม Hightlight Effect โดยเมื่อคลิกค้างที่จังหวัดนั้นจะปรากฏพื้นหลังสีเหลือง
 5. เพิ่มการแสดงผลอุณหภูมิที่เรารู้สึกได้
+6. ทำการตกแต่งที่ header 
+## ตัวอย่าง ScreenShot
+
+![alt text](https://github.com/kentilove095/6210110616_3SA04/blob/main/Screenshot%202021-07-18%20223504.png)
+![alt text](https://github.com/kentilove095/6210110616_3SA04/blob/main/1.png)
