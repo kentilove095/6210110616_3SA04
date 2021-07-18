@@ -12,9 +12,9 @@ const Stack = createStackNavigator()
 
 export default function App() { 
   return (
-    <NavigationContainer>
+    <NavigationContainer style={styles.head}>
       <Stack.Navigator>
-        <Stack.Screen name = "Home" component={ZipCodeScreen} style={styles.head}/>
+        <Stack.Screen name = "Home" component={ZipCodeScreen} />
         <Stack.Screen name = "Weather" component={WeatherScreen}/>
       </Stack.Navigator>
     </NavigationContainer>

@@ -3,24 +3,25 @@ import React from 'react'
 import { FlatList, StyleSheet, Text, TouchableHighlight, View } from 'react-native'
 
 const availableZipItems = [
-    { place: 'Hatyai', code: '90110' },
-    { place: 'Trang', code: '92000' },
-    { place: 'Chiangmai', code: '50000' },
-    { place: 'Khonkaen', code: '40000' },
-    { place: 'Chonburi', code: '20000' },
-    { place: 'Suratthani', code: '84000' },
-    { place: 'Satun', code: '91000' },
-    { place: 'Nakhormpathom', code: '73000' },
-    { place: 'Buriram', code: '31000' },
-    { place: 'Ubonratchathani', code: '34000' },
+    { place: 'Hatyai', thai: 'หาดใหญ่', code: '90110' },
+    { place: 'Trang', thai: 'ตรัง', code: '92000' },
+    { place: 'Chiangmai', thai: 'เชียงใหม่', code: '50000' },
+    { place: 'Khonkaen', thai: 'ขอนแก่น', code: '40000' },
+    { place: 'Chonburi', thai: 'ชลบุรี', code: '20000' },
+    { place: 'Suratthani', thai: 'สุราษฎร์ธานี', code: '84000' },
+    { place: 'Satun', thai: 'สตูล', code: '91000' },
+    { place: 'Nakhormpathom', thai: 'นครปฐม', code: '73000' },
+    { place: 'Buriram', thai: 'บุรีรัมย์', code: '31000' },
+    { place: 'Ubonratchathani', thai: 'อุบลราชธานี', code: '34000' },
    ]
 
-const ZipItem = ({place, code, navigation}) => (
-    <TouchableHighlight onPress={() => {
+const ZipItem = ({place, code, navigation, thai}) => (
+    <TouchableHighlight underlayColor='yellow' onPress={() => {
         navigation.navigate('Weather', {zipCode: code})
     }}>
         <View style ={styles.zipItem}>
             <Text>{place}</Text>
+            <Text>{thai}</Text>
             <Text>{code}</Text>
         </View>
     </TouchableHighlight>
@@ -48,6 +49,12 @@ const styles = StyleSheet.create({
     },
     zipCode: {
         flex: 1,
+    },
+    ZipThai: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+        
     }
 
 })
