@@ -12,9 +12,9 @@ const Stack = createStackNavigator()
 
 export default function App() { 
   return (
-    <NavigationContainer style={styles.head}>
+    <NavigationContainer color='blue' >
       <Stack.Navigator>
-        <Stack.Screen name = "Home" component={ZipCodeScreen} />
+        <Stack.Screen name = "Home" component={ZipCodeScreen} color='blue' />
         <Stack.Screen name = "Weather" component={WeatherScreen}/>
       </Stack.Navigator>
     </NavigationContainer>
@@ -23,7 +23,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   head: {
-    width: 400,
+        width: 400,
         textAlignVertical: 'center',
         textAlign: 'center',
         fontSize: 30,
