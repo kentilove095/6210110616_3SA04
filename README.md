@@ -13,4 +13,4 @@
 ## ตัวอย่าง ScreenShot
 
 ![alt text](https://github.com/kentilove095/6210110616_3SA04/blob/main/Screenshot%202021-07-18%20223504.png)
-![alt text](https://github.com/kentilove095/6210110616_3SA04/blob/main/2.png)
+![alt text](https://github.com/kentilove095/6210110616_3SA04/blob/main/1.png)
