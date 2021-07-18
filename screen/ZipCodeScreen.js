@@ -7,12 +7,12 @@ const availableZipItems = [
     { place: 'Trang', thai: 'ตรัง', code: '92000' },
     { place: 'Chiangmai', thai: 'เชียงใหม่', code: '50000' },
     { place: 'Khonkaen', thai: 'ขอนแก่น', code: '40000' },
-    { place: 'Chonburi', thai: 'ชลบุรี', code: '20000' },
+    { place: 'Bangkok', thai: 'กรุงเทพมหานครฯ', code: '10100' },
     { place: 'Suratthani', thai: 'สุราษฎร์ธานี', code: '84000' },
-    { place: 'Satun', thai: 'สตูล', code: '91000' },
+    { place: 'NakhornRatchasima', thai: 'นครราชสีมา', code: '30000' },
     { place: 'Nakhormpathom', thai: 'นครปฐม', code: '73000' },
-    { place: 'Buriram', thai: 'บุรีรัมย์', code: '31000' },
-    { place: 'Ubonratchathani', thai: 'อุบลราชธานี', code: '34000' },
+    { place: 'Sisaket', thai: 'ศรีสะเกษ', code: '33000' },
+    { place: 'Phitsanulok', thai: 'พิษณุโลก', code: '65000' },
    ]
 
 const ZipItem = ({place, code, navigation, thai}) => (

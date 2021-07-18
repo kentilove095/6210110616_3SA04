@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native'
 export default function Forecast(props){
     return(
         <View>
+            <Text style={styles.fonts}>{props.name}</Text>
             <Text style={styles.fonts}>{props.main}</Text>
             <Text style={styles.des}>{props.description}</Text>
             <Text style={styles.tempt}>{props.temp}°C</Text>
