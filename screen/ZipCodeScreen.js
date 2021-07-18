@@ -39,9 +39,10 @@ export default function ZipCodeScreen(){
 
 const styles = StyleSheet.create({
     zipItem: {
-        flex: 1,
         flexDirection: 'row',
+        alignItems: 'center',
         justifyContent: 'space-between',
+        
     },
     zipPlace: {
         flex: 1,
