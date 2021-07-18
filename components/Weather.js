@@ -6,8 +6,8 @@ import Forecast from './Forecast';
 export default function Weather(props){
 
     const [forecastInfo, setForecastInfo] = useState({
-        main: '-',
-        description: '-',
+        main: 'Loading...',
+        description: 'Loading...',
         temp: 0
     })
     useEffect(() => {
